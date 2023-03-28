@@ -35,7 +35,9 @@ Reference: R. W. R. Darling, "Retro-preferential Stochastic Mobility Models on R
 
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Status](#status)
+- [Build](#build)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
@@ -45,29 +47,44 @@ Reference: R. W. R. Darling, "Retro-preferential Stochastic Mobility Models on R
 - [Copyright and license](#copyright-and-license)
 
 ## Status
+
 Java version runs from the command line:
+
 <p>
 	java -jar fractalrabbit.jar parameters.csv</p>
 <p>	
 An example of the parameters.csv file is provided in the resources folder.
 Change it to suit your modelling needs. 
 It permits multiple travellers to follow the same trajectory asynchronously.
-</p>	
+</p>
+
+## Build
+
+Run the following:
+
+```
+mvn clean install
+```
 
 ## Bugs and feature requests
+
 - Have a bug or a feature request? Contact Github user bbux-atg
 
 ## Documentation
-- See <a href="https://github.com/NationalSecurityAgency/fractalrabbit/wiki">Wiki</a>. 
+
+- See <a href="https://github.com/NationalSecurityAgency/fractalrabbit/wiki">Wiki</a>.
 
 ## Contributing
+
 - New implementations of the three underlying models described in the technical report are welcome.
 
 ## Community
+
 - TBA
 
 ## Versioning
-- 
+
+-
 
 ## Creators
 
